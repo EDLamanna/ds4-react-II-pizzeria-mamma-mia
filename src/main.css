@@ -1,0 +1,240 @@
+@import "bootstrap/dist/css/bootstrap";
+
+.navContainer {
+  padding: 3px;
+}
+
+.NavBar {
+  background-color: rgba(46, 80, 39, 0.377);
+  color: white;
+}
+
+.brandMenu {
+  height: 120px;
+  margin: 0px 5px -40px 0;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.link-no-decoration-icon {
+  display: flex;
+  width: 180px;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
+
+.iconAwsome {
+  font-size: 30px;
+}
+
+.link-no-decoration-icon > p {
+  margin-left: 10px;
+}
+
+.colorGreen {
+  color: green;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorRed {
+  color: red;
+}
+
+hr {
+  width: 90%;
+  margin: 20px auto auto auto;
+}
+
+.bannerContainer {
+  display: flex;
+}
+
+.BrandContainerImg {
+  width: 400px;
+  margin-left: auto;
+}
+
+.imgBrand {
+  width: 200px;
+  height: 500px;
+  rotate: 270deg;
+  margin-top: -150px;
+  margin-bottom: -130px;
+}
+
+.description {
+  width: 800px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.listGroup {
+  border: none !important;
+  border-bottom: 1px solid rgba(143, 142, 142, 0.438) !important    ;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.btnPrincipalContainer {
+  height: 150px;
+}
+
+.imgPizza {
+  width: 25px;
+  margin: 0px 10px 0px 10px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.moreDetailsBtn {
+  text-decoration: none;
+  background-color: rgb(23, 150, 182);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.addToCarBtn {
+  text-decoration: none;
+  background-color: rgb(32, 153, 38);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.imgEyes {
+  width: 25px;
+}
+
+.pizzaContainer {
+  display: flex;
+  margin: 80px 150px 0px 150px;
+  gap: 20px;
+}
+
+.ImgPizza {
+  width: 500px;
+  border-radius: 7px;
+}
+
+#quantity {
+  width: 44px;
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.imgBackToIndex {
+  width: 25px;
+}
+
+.priceAndBtnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgCarBuy {
+  background-color: rgb(216, 209, 209);
+  display: flex;
+  flex-direction: column;
+}
+
+.carBuyContainer {
+  background-color: rgb(230, 230, 230);
+  width: 85vw;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pizzaSelectedContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+.imgPizzaSelected {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.namePizza {
+  width: 300px;
+}
+
+.salesContainer {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.btnPlus {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(32, 153, 38);
+  color: white;
+}
+
+.btnMinus {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(199, 49, 49);
+  color: white;
+}
+
+.payBtn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(25, 117, 30);
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 20px;
+}
